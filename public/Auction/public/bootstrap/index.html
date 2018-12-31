@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<meta charset="utf-8">
+		<meta name="description" content="拍卖系统">
+		<meta name="keywords" content="HTML,CSS,JavaScript">
+		<meta name="author" content="runoob">
+        <title>操作界面</title>
+        <link rel="stylesheet" href="./bootstrap/index.css">
+        <script src="./bootstrap/index.js" type="text/javascript"></script>
+        <script src="./bootstrap/jquery-3.2.1.js" type="text/javascript"></script>
+    </head>
+    
+    <body>
+		<div id="area0">
+			<h1>拍卖</h1>
+			<h2><i>一个拍卖的世界</i></h2>
+		</div>
+		<hr/>
+		<div id="area1"> 
+			<div id="put">出价区</div>
+			<div id="showThing">
+				<span>当前拍卖物品:</span>
+				<div class="show" id="showblock1">
+					物品名:  <span id="thingName">..</span>
+				</div>
+				<div class="show" id="showblock2">
+					拍卖账户:  <span id="ownerAccount">..</span>
+				</div>
+				<div class="show" id="showblock3">
+					当前出价:  <span id="presentValue">..</span>
+				</div>
+				<div class="show" id="showblock4">
+					物品描述:  <span id="putAccount">..</span>
+				</div>
+				<div class="show" id="showblock5">
+					拍卖状态:  <span id="pStatus">..</span>
+				</div>
+				<button class="button" id="infoButton">刷新</button><span class="resultstate" id="result1"></span>
+			</div>
+			<br/>
+			<div id="layout">
+				<div id="paimai">
+					<span>竞拍出价:</span>
+					<div id="form">
+						<input class="Info" type="text" id="name" name="name" placeholder="出价"><br/>
+						<div class="error" id="errN"></div>
+						<input class="Info" type="text" id="password" name="password" placeholder="验证码"><br/>
+						<div class="error" id="errP"></div>
+						<div id="iden"></div><br/>
+						<button class="Button" id="loginButton">确认</button>
+					</div>
+				</div>
+			</div>
+			
+			<div id="sel">
+				<span class="zhanghu">账户列表:</span><br/>
+				<select id="select" class="se">
+						<option value ="0" id="main">0x0000000000000</option>
+						<option value ="1" id="second">0x2544asfs54dsa4</option>
+				</select><span class="resultstate" id="result2"></span>
+			</div>
+        </div>
+		
+		<div id="area2">
+			<div id="put2">发起区</div><br/>
+			<div id="layout1">
+				<span>要拍卖的物品信息:</span>
+				<br/>
+				<div name="form1" id="form">
+					<input class="Info" type="text" id="name1" name="namew" placeholder="物品名"><br/><br/>
+					<input class="Info" type="text" id="password1" name="passwordw" placeholder="初始价格"><br/><br/>
+					<input class="Info" type="text" id="description" name="descriptionw" placeholder="物品描述"><br/><br/>
+					<button class="Button" id="upButton">提交</button>
+				</div>
+			</div>
+			<br/>
+			<div id="showown">
+				<span>您当前上传的拍卖物品:</span>
+				<div class="show" id="showblock1">
+					物品名:  <span id="thingName1">..</span>
+				</div>
+				<div class="show" id="showblock2">
+					最新出价:  <span id="presentValue1">..</span>
+				</div>
+				<div class="show" id="showblock3">
+					拍卖状态:  <span id="state1">..</span>
+				</div>
+				<button class="button" id="oinfoButton">刷新</button>
+				<button class="button" id="delayButton">取消该拍卖</button><span class="resultstate" id="result3"></span>
+			</div>
+		</div>
+		
+		
+    </body>
+</html>

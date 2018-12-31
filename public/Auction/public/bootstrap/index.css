@@ -1,0 +1,177 @@
+
+#area1,#area2{
+	width:655px;
+	height:500px;
+	border-width:3px;
+	border-style:ridge;
+	border-color:white;
+}
+
+#area1{
+	float:left;
+}
+
+#area2{
+	float:right;
+}
+
+button{
+    background-color: #317ef3;
+    color: white;
+}
+
+
+#showThing {
+	position:relative;
+	left:50px;
+    width:500px;
+	height:160px;
+    border-width:3px;
+	border-style:ridge;
+	background-color:#e9faff;
+	border-color:white;
+	font-family: "Open Sans", sans-serif;
+}
+
+div.show {
+	border-width:1px;
+	border-style:outset;
+	border-color:white;
+    background:#e9faff;
+	font-size: 16px;
+	font-weight: bold;
+	color: #255e95;
+}
+#showown{
+	background-color:#e9faff;
+	width:500px;
+	height:110px;
+	border-style:ridge;
+	border-color:white;
+	position:relative;
+	left:75px;
+}
+#layout {
+	background-repeat:no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	background-position: center;
+	width:500px;
+	height:200px;
+	border-style:ridge;
+	border-color:white;
+	position:relative;
+	left:50px;
+	background-color:#e9faff;
+}
+
+#form {
+	text-align:center;
+}
+
+#sel{
+	position:relative;
+	left:50px;
+}
+
+.se{
+    font-family:"Open Sans", sans-serif;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+#iden {
+    background-color: gray;
+    width: 82px;
+    height: 24px;
+    color:red;
+    position: relative;
+    left: 164px;
+}
+
+.error{
+	height:20px;
+	width:170px;
+	color:red;
+	position:relative;
+	left:164px;
+}
+
+h1,h2{
+	text-align:center;
+}
+
+
+h1,h2{
+	color:grey;
+}
+
+
+
+input{
+	border-style:outset;
+	border-color:grey;
+	height:30px;
+}
+
+option {
+    color: green;
+}
+
+#main{
+    color: red;
+}
+
+#put{
+	font-size:30px;
+	color:white;
+	width:130px;
+	text-align:center;
+	border-radius:10px;
+	border:2px;
+	border-style:ridge;
+	border-color:grey;
+	position:relative;
+	background-color:#317ef3;
+	left:235px;
+}
+
+#put2{
+	font-size:30px;
+	color:white;
+	width:130px;
+	text-align:center;
+	border-radius:10px;
+	border:2px;
+	border-style:ridge;
+	border-color:grey;
+	position:relative;
+	left:245px;
+	background-color:#317ef3;
+	
+}
+
+#layout1{
+	background-color:#e9faff;
+	width:500px;
+	height:250px;
+	border-style:ridge;
+	border-color:white;
+	position:relative;
+	left:75px;
+}
+
+span{
+	font-weight:bold;
+	color:blue;
+}
+span.zhanghu{
+	font-family:"Open Sans", sans-serif;
+	color:blue;
+}
+span.resultstate{
+	font-weight:bold;
+	color:green;
+}
