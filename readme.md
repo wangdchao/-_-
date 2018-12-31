@@ -11,16 +11,16 @@
 ## 应用搭建过程
 ### 环境搭建
 首先本次实验构造Dapp的采用的是express后端框架，但是整体上用的是truffle架构。要运行此次项目需要用到的环境如下：
-1.nodejs v8.9.1
-​	1.fs模块
-​	2.body-parser模块
-​	3.web3模块 v0.20.0
-​	4.express模块
-​	5.path模块
-2.git v2.17.1.2
-3.geth 1.8.10
-4.ganache-cli 6.1.0(这个有命令行也有图像界面两种)
-5.truffle 4.1.11
+1. nodejs v8.9.1
+	​	1. fs模块
+	​	2. body-parser模块
+	​	3. web3模块 v0.20.0
+	​	4. express模块
+	​	5. path模块
+2. git v2.17.1.2
+3. geth 1.8.10
+4. ganache-cli 6.1.0(这个有命令行也有图像界面两种)
+5. truffle 4.1.11
 
 实验操作系统为windows 10，编辑软件建议采用visual studio code，它会提供很多插件如js、html等。
 
